@@ -2,8 +2,9 @@
 % Date: 30-07-2025
 % Drives Lab Class 1
 % MATLAB code to test various matrix, trigonometric functions and roots of algebraic equations
-
-
+%#ok<*NOPTS>
+%#ok<*IJCL>
+ 
 %% Matrix operations
 
 C = [1 2; 4 5; 5 6; 12 2] * [1 2 4 5; 3 4 5 6]
@@ -28,7 +29,7 @@ eye(5, 5)
 ai = [1 + i 2 + 3 + i]
 bi = [1 + 2 * i; 3 + 4 * i; 5 + 6 * i]
 
-S = ["Sunil" "Sharma"; "Ram " "Singh"]
+S = ["John" "Doe"; "Ram " "Singh"]
 
 % Quotation of matrices
 D > 5
