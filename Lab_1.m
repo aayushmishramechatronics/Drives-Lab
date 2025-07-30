@@ -51,11 +51,11 @@ plot(x, y)
 
 % Q.1 Solve x^2 - 5x + 4 = 0, Find the roots.
 
-% Method One - Manual Calculation without in-built 'roots' function
+% Method One - Manual Calculation without in-built 'roots' command
 answerOne1 = (-(-5) + sqrt((-5)^2 - 4 * 1 * 4)) / (2 * 1)
 answerOne2 = (-(-5) - sqrt((-5)^2 - 4 * 1 * 4)) / (2 * 1)
 
-% Method Two - Using Matrix with value of Coefficients/Constants of any Equation
+% Method Two - Making a Matrix using the values of Coefficients/Constants of the given Equation and also using the in-built 'roots' command
 answerOne = [1 -5 4]
 roots(answerOne)
 
