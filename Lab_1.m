@@ -51,7 +51,7 @@ answerOne2 = (-(-5) - sqrt((-5)^2 - 4 * 1 * 4)) / (2 * 1)
 
 % Method Two In Build Function
 answerOne = [1 -5 4]
-roots(q)
+roots(answerOne)
 
 % Q.2 Solve the set of equations to find x & y:
 %   2x + y = 8
