@@ -9,7 +9,7 @@ V = R*i + L di/dt
 1. Derive the Expression for:
 
 \[
-\ di/dt
+di/dt
 \]
 
 2. Design a **Simulink Block Diagram** to Model the `RL Circuit Current` \( i(t) \).
